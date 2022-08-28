@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Open+Sans&family=Outfit&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+:root {
+    --whiteColor: (0, 0%, 100%)
+    --lightGray: hsl(212, 45%, 89%);
+    --grayishBlue: hsl(220, 15%, 55%);
+    --darkBlue: hsl(218, 44%, 22%);
+}
+ 
+body {
+    font-family: 'Outfit', sans-serif;
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 400;
+}
+.container{
+    background-color: var(--whiteColor);
+    max-width: 1440px;
+    margin: 80px 10;
+}
+.card-background{
+    background-color:hsl(345, 20%, 92%);
+    margin: 40px 80px 20px 40px;
+    padding: 80px 0px;
+    
+}
+.card-container{
+    background-color: hsl(212, 45%, 89%);
+    padding: 80px 0px;
+    margin: 13px auto;
+    width: 1310px;
+    box-shadow: 10px 10px 2px rgba(214, 226, 240, 0.055), 0 16px 16px 0 rgba(214, 226, 240, 0.933);
+}
+.card-container-center{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px #fff solid;
+    margin: 0 500px;
+    padding: 0 10px;
+    border-radius: 10px;
+
+   
+}
+img {
+    width: 300px;
+    height: 300px;
+     /* background: white; */
+ 
+    margin: 10px;
+}
+.card-description {
+width: 300px;
+height: 300px;
+background: white;
+padding: 10px;
+}
+h1{
+    margin: 15px;
+}
+p{
+    margin: 0 15px 10px;
+    opacity: 0.6;
+}
+.btn{
+    display:flex;
+    margin:10px 100px 15px 40px;
+
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #fff;
+}
+.desktop-btn {
+
+    padding: 10px 100px 10px 100px;
+    background: rgb(8, 8, 136);
+    margin-right: 0px auto;
+    border-radius: 50px;
+    border: 7px dotted rgb(128, 203, 228);
+    cursor: pointer;
+
+}
+
+.mobile-btn  {
+    padding: 10px 100px 10px 100px;
+    background-color: hsl(212, 45%, 89%);
+    margin-left: 100px;
+
+    border-radius: 50px;
+
+    cursor: pointer;
+
+
+}
+.mobile-btn > a{
+    color:rgb(75, 73, 73)
+}
+
+ 
+    
